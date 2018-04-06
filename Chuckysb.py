@@ -147,7 +147,7 @@ groupMessage ="""
 ║ line.me/ti/p/~sepriche
 ╚═════════════════════════
 """
-tjia="u14f64e139a3817afaabe27d237afb36b"
+tjia="u17c85f6d88abc5585e85b7c82a57970d"
 
 setMessage ="""
 ╔═════════════════════════
