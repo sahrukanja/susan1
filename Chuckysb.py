@@ -12,7 +12,7 @@ import time,random,sys,json,codecs,threading,glob,urllib,urllib2,urllib3,re,ast,
 
 nadya = LINETCR.LINE()
 #nadya.login(qr=True)
-nadya.login(token='EpS0tmC0ZTDhKOGiKDmb.fpzoe5O4f6/QVIFsn6/ZAW.l+ZRTs/GX3nkrHE/Y77Huo1aF65/TOARxV8ppihfEOQ=')
+nadya.login(token='ErkOxwijKirsY0izVsid.f8HFByIRXvHEHBFikLExdq.Ol9mnI5NMzOOP5H+q8FMuaWYg9/KNG3TKNtD//U1Dl8=')
 nadya.loginResult()
 print "Nadya-Login Success\n\n=====[Sukses Login]====="
 
@@ -22,7 +22,7 @@ sys.setdefaultencoding('utf-8')
 
 selfMessage ="""
 ╔═════════════════════════
-║            ☆☞ S E L F ☜☆
+║            ☆☞ S U S A N ☜☆
 ╠═════════════════════════
 ╠➩〘Hi〙
 ╠➩〘Me〙
@@ -49,14 +49,14 @@ selfMessage ="""
 ╠➩〘Micdel @〙
 ╠➩〘Miclist〙
 ╠═════════════════════════
-║             💠 By : Nadya 💠
-║    〽️ line.me/ti/p/~nad_nad. 〽️
+║ Sepri_SB modifed versi 125v
+║ line.me/ti/p/~sepriche
 ╚═════════════════════════
 """
 
 botMessage ="""
 ╔═════════════════════════
-║             ☆☞ B O T ☜☆
+║  ☆☞ S U S A N  B O T ☜☆
 ╠═════════════════════════
 ╠➩〘Absen〙
 ╠➩〘Respon〙
@@ -69,14 +69,14 @@ botMessage ="""
 ╠➩〘@bye〙
 ╠➩〘Bot on/off〙
 ╠═════════════════════════
-║             💠 By : Nadya 💠
-║    〽️ line.me/ti/p/~nad_nad. 〽️
+║ Sepri_SB modifed versi 125v
+║ line.me/ti/p/~sepriche
 ╚═════════════════════════
 """
 
 mediaMessage ="""
 ╔═════════════════════════
-║           ☆☞ M E D I A ☜☆
+║☆☞ S U S A N   M E D I A ☜☆
 ╠═════════════════════════
 ╠➩〘Gift〙
 ╠➩〘Gift1 @ s/d Gift10 @〙
@@ -110,14 +110,14 @@ mediaMessage ="""
 ╠➩〘Id@th Text (Translate ID Ke TH〙
 ╠➩〘En@id Text (Translate En Ke ID〙
 ╠═════════════════════════
-║             💠 By : Nadya 💠
-║    〽️ line.me/ti/p/~nad_nad. 〽️
+║ Sepri_SB modifed versi 125v
+║ line.me/ti/p/sepriche
 ╚═════════════════════════
 """
 
 groupMessage ="""
 ╔═════════════════════════
-║           ☆☞ G R O U P ☜☆
+║☆☞ S U S A N  G R O U P ☜☆
 ╠═════════════════════════
 ╠➩〘Welcome〙
 ╠➩〘Say welcome〙
@@ -143,15 +143,15 @@ groupMessage ="""
 ╠➩〘Getgroup image〙
 ╠➩〘Urlgroup Image〙
 ╠═════════════════════════
-║             💠 By : Nadya 💠
-║    〽️ line.me/ti/p/~nad_nad. 〽️
+║ Sepri_SB modifed versi 125v
+║ line.me/ti/p/~sepriche
 ╚═════════════════════════
 """
 tjia="u14f64e139a3817afaabe27d237afb36b"
 
 setMessage ="""
 ╔═════════════════════════
-║              ☆☞ S E T ☜☆
+║   ☆☞ S U S A N  S E T ☜☆
 ╠═════════════════════════
 ╠➩〘Sambutan on/off〙
 ╠➩〘Mimic on/off〙
@@ -162,14 +162,14 @@ setMessage ="""
 ╠➩〘Sticker on〙
 ╠➩〘Simisimi on/off〙
 ╠═════════════════════════
-║             💠 By : Nadya 💠
-║    〽️ line.me/ti/p/~nad_nad. 〽️
+║ Sepri_SB modifed versi 125v
+║ line.me/ti/p/~sepriche
 ╚═════════════════════════
 """
 
 creatorMessage ="""
 ╔═════════════════════════
-║         ☆☞ C R E A T O R ☜☆
+║☞ S U S A N  C R E A T O R ☜
 ╠═════════════════════════
 ╠➩〘Crash〙
 ╠➩〘Kickall〙
@@ -181,14 +181,14 @@ creatorMessage ="""
 ╠➩〘Bot restart〙
 ╠➩〘Turn off〙
 ╠═════════════════════════
-║             💠 By : Nadya 💠
-║    〽️ line.me/ti/p/~nad_nad. 〽️
+║ Sepri_SB modifed versi 125v
+║ line.me/ti/p/~sepriche
 ╚═════════════════════════
 """
 
 adminMessage ="""
 ╔═════════════════════════
-║            ☆☞ A D M I N ☜☆
+║☆☞ S U S A N.  A D M I N ☜☆
 ╠═════════════════════════
 ╠➩〘Allprotect on/off〙
 ╠➩〘Ban〙
@@ -222,14 +222,14 @@ adminMessage ="""
 ╠➩〘Respon3 on/off〙
 ╠➩〘Responkick on/off〙
 ╠═════════════════════════
-║             💠 By : Nadya 💠
-║    〽️ line.me/ti/p/~nad_nad. 〽️
+║Sepri_SB modifed versi 125v
+║line.me/ti/p/~sepriche
 ╚═════════════════════════
 """
 
 helpMessage ="""
 ╔═════════════════════════
-║              ☆☞ H E L P ☜☆
+║  ☆☞S U S A N  H E L P ☜☆
 ╠═════════════════════════
 ╠➩〘Help self〙
 ╠➩〘Help bot〙
@@ -244,8 +244,8 @@ helpMessage ="""
 ╠➩〘Speed test〙
 ╠➩〘Status〙
 ╠═════════════════════════
-║             💠 By : Nadya 💠
-║    〽️ line.me/ti/p/~nad_nad. 〽️
+║ Sepri_SB modifed versi 125v
+║ line.me/ti/p/~sepriche
 ╚═════════════════════════
 """
 
@@ -253,8 +253,8 @@ helpMessage ="""
 KAC=[nadya]
 mid = nadya.getProfile().mid
 Bots=[mid]
-Creator=["u14f64e139a3817afaabe27d237afb36b"]
-admin=["u14f64e139a3817afaabe27d237afb36b"]
+Creator=["u17c85f6d88abc5585e85b7c82a57970d"]
+admin=["u17c85f6d88abc5585e85b7c82a57970d"]
 
 contact = nadya.getProfile()
 backup1 = nadya.getProfile()
@@ -282,15 +282,15 @@ wait = {
     'likeOn':{},
     'detectMention':False,
     'detectMention2':True,
-    'detectMention3':False,
+    'detectMention3':True,
     'kickMention':False,  
     'sticker':False,  
     'timeline':True,
     "Timeline":True,
-    "comment":"Bot Auto Like ©By : Nadya\nContact Me : 👉 line.me/ti/p/~nad_nad.",    
+    "comment":"Bot Auto Like ©By : Nadya\nContact Me : 👉 line.me/ti/p/~sepriche",    
     "commentOn":True,
     "commentBlack":{},
-    "message":"Thx For Add Me (^_^)\nInvite Me To Your Group ヘ(^_^)ヘ",    
+    "message":"assalamualaikum\n🙏🙏🙏",    
     "blacklist":{},
     "wblacklist":False,
     "dblacklist":False,
@@ -575,15 +575,15 @@ def bot(op):
                                 if " " in Name:
                                     nick = Name.split(' ')
                                     if len(nick) == 2:
-                                        nadya.sendText(op.param1, "Haii " + "☞ " + Name + " ☜" + "\nNgintip Aja Niih. . .\nChat Kek Idiih (-__-)   ")
+                                        nadya.sendText(op.param1, "Haii " + "✴️ " + Name + " ✴️" + "\nNgintip Aja Niih. . .\nntar bintitan  😄   ")
                                         time.sleep(0.2)
                                         summon(op.param1,[op.param2])
                                     else:
-                                        nadya.sendText(op.param1, "Haii " + "☞ " + Name + " ☜" + "\nBetah Banget Jadi Penonton. . .\nChat Napa (-__-)   ")
+                                        nadya.sendText(op.param1, "Haii " + "✴️" + Name + "✴️" + "\nsuka banget ngintip. . .\ntemanin kk susan ngobrol dong  ")
                                         time.sleep(0.2)
                                         summon(op.param1,[op.param2])
                                 else:
-                                    nadya.sendText(op.param1, "Haii " + "☞ " + Name + " ☜" + "\nNgapain Kak Ngintip Aja???\nSini Gabung Chat...   ")
+                                    nadya.sendText(op.param1, "Haii " + "✴️ " + Name + " ✴️" + "\n masuk . . \nSini temanin ka susan ngobrol😄   ")
                                     time.sleep(0.2)
                                     summon(op.param1,[op.param2])
                         else:
@@ -630,7 +630,7 @@ def bot(op):
                         nadya.rejectGroupInvitation(op.param1)
 		    else:
                         nadya.acceptGroupInvitation(op.param1)
-			nadya.sendText(op.param1,"☆Ketik ☞Help☜ Untuk Bantuan☆\n☆Harap Gunakan Dengan Bijak ^_^ ☆")
+			nadya.sendText(op.param1,"Hai...  Assalamualaikum,, salken ya semuanya...🙏🙏🙏")
 	    else:
                 if wait["AutoCancel"] == True:
 		    if op.param3 in Bots:
@@ -792,7 +792,7 @@ def bot(op):
             ginfo = nadya.getGroup(op.param1)
             contact = nadya.getContact(op.param2)
             image = "http://dl.profile.line-cdn.net/" + contact.pictureStatus
-            nadya.sendText(op.param1,"Hallo " + nadya.getContact(op.param2).displayName + "\nWelcome To ☞ " + str(ginfo.name) + " ☜" + "\nBudayakan Cek Note\nDan Semoga Betah Disini ^_^")
+            nadya.sendText(op.param1,"Hallo " + nadya.getContact(op.param2).displayName + "\nSelamat datang di  " + str(ginfo.name) + " " + "\n\nSalam kenal ya, by. Susan😘😘😘")
             c = Message(to=op.param1, from_=None, text=None, contentType=13)
             c.contentMetadata={'mid':op.param2}
             nadya.sendMessage(c)  
@@ -857,7 +857,7 @@ def bot(op):
                  if wait["detectMention"] == True:
                      contact = nadya.getContact(msg.from_)
                      cName = contact.displayName
-                     balas = ["Dont Tag!! Lagi Sibuk",cName + " Ngapain Ngetag?",cName + " Nggak Usah Tag-Tag! Kalo Penting Langsung Pc Aja","Dia Lagi Off", cName + " Kenapa Tag Saya?","Dia Lagi Tidur\nJangan Di Tag " + cName, "Jangan Suka Tag Gua " + cName, "Kamu Siapa " + cName + "?", "Ada Perlu Apa " + cName + "?","Woii " + cName + " Jangan Ngetag, Riibut!"]
+                     balas = ["Maaf kak Susan lagi bobo",cName + " Maaf kak Susan lagi sibuk balas pm 😊",cName + " yang tag kak Susan, pasti minta dikirim tikel😂","yang tag kak susan pasti lagi belum mandi😛", cName + " kak susan lagi sibuk nikung, jangan suka tag ya..😂","jangan tag\nkalau ga mau dicipok kk susan😂 " + cName, "Jangan tag kak susan kalau ga mau kasih koin tikel😅 " + cName, "kak susan lagi sibuk nikung, jangan di tag😂 " + cName + "?", "Ada Perlu Apa " + cName + "?","Woii " + cName + " Jangan Ngetag, Riibut!"]
                      ret_ = random.choice(balas)
                      name = re.findall(r'@(\w+)', msg.text)
                      mention = ast.literal_eval(msg.contentMetadata['MENTION'])
@@ -871,7 +871,7 @@ def bot(op):
                  if wait["detectMention2"] == True:          
                     contact = nadya.getContact(msg.from_)
                     cName = contact.displayName
-                    balas = ["Sekali lagi nge tag gw sumpahin jomblo seumur hidup!","Nggak Usah Tag-Tag! Kalo Penting Langsung Pc Aja","Woii " + cName + " Jangan Ngetag, Riibut!"]
+                    balas = ["Jangan tag,... Kak susan lagi sibuk nikung😂","yang ngetag kak Susan, pasti mau kirim koin tikel😂","kak Susan lagi pura2 tidur, jangan suka tag yah " + cName + " kak susan lagi pusing mikir tikungan, jangan di ganggu yah😂😂😂"]
                     ret_ = random.choice(balas)
                     name = re.findall(r'@(\w+)', msg.text)
                     mention = ast.literal_eval(msg.contentMetadata['MENTION'])
@@ -892,8 +892,8 @@ def bot(op):
                  if wait["detectMention3"] == True:          
                     contact = nadya.getContact(msg.from_)
                     cName = contact.displayName
-                    balas = ["Woii " + cName + ", Dasar Jones Ngetag Mulu!"]
-                    balas1 = "Ini Foto Sii Jones Yang Suka Ngetag. . ."
+                    balas = ["SEKILAS INFO " + cName + ", HATI HATI DENGAN FOTO DIBAWAH INI"]
+                    balas1 = "ORANG YANG SUKA ANU DAN DI ANU 😱"
                     ret_ = random.choice(balas)
                     image = "http://dl.profile.line-cdn.net/" + contact.pictureStatus
                     name = re.findall(r'@(\w+)', msg.text)
@@ -907,9 +907,9 @@ def bot(op):
                                   msg.contentType = 7   
                                   msg.text = None
                                   msg.contentMetadata = {
-                                                       "STKID": "11764508",
-                                                       "STKPKGID": "6641",
-                                                       "STKVER": "1" }
+                                                       "STKID": "10",
+                                                       "STKPKGID": "1",
+                                                       "STKVER": "100" }
                                   nadya.sendMessage(msg)                                
                                   break  
                                   
@@ -1544,20 +1544,20 @@ def bot(op):
             elif msg.text in ["Sambutan on"]:
                 if wait["Sambutan"] == True:
                     if wait["lang"] == "JP":
-                        nadya.sendText(msg.to,"Sambutan Di Aktifkanヾ(*´∀｀*)ﾉ")
+                        nadya.sendText(msg.to,"Sambutan Di Aktifkan")
                 else:
                     wait["Sambutan"] = True
                     if wait["lang"] == "JP":
-                        nadya.sendText(msg.to,"Sudah Onヽ(´▽｀)/")
+                        nadya.sendText(msg.to,"Sudah On")
 
             elif msg.text in ["Sambutan off"]:
                 if wait["Sambutan"] == False:
                     if wait["lang"] == "JP":
-                        nadya.sendText(msg.to,"Sambutan Di Nonaktifkan(　＾∇＾)")
+                        nadya.sendText(msg.to,"Sambutan Di Nonaktifkan")
                 else:
                     wait["Sambutan"] = False
                     if wait["lang"] == "JP":
-                        nadya.sendText(msg.to,"Sudah Off(p′︵‵。)")
+                        nadya.sendText(msg.to,"Sudah Off")
                         
                         
             elif "Sider on" in msg.text:
@@ -1584,37 +1584,37 @@ def bot(op):
 
             elif msg.text in ["Status"]:
                 md = ""
-		if wait["Sambutan"] == True: md+="╠➩✔️ Sambutan : On\n"
-		else:md+="╠➩❌ Sambutan : Off\n"
-		if wait["AutoJoin"] == True: md+="╠➩✔️ Auto Join : On\n"
-                else: md +="╠➩❌ Auto Join : Off\n"
-		if wait["AutoJoinCancel"] == True: md+="╠➩✔️ Auto Join Cancel : On\n"
-                else: md +="╠➩❌ Auto Join Cancel : Off\n"                
-		if wait["Contact"] == True: md+="╠➩✔️ Info Contact : On\n"
-		else: md+="╠➩❌ Info Contact : Off\n"
-                if wait["AutoCancel"] == True:md+="╠➩✔️ Auto Cancel : On\n"
-                else: md+= "╠➩❌ Auto Cancel : Off\n"
-                if wait["inviteprotect"] == True:md+="╠➩✔️ Invite Protect : On\n"
-                else: md+= "╠➩❌ Invite Protect : Off\n"                
-		if wait["Qr"] == True: md+="╠➩✔️ Qr Protect : On\n"
-		else:md+="╠➩❌ Qr Protect : Off\n"
-		if wait["AutoKick"] == True: md+="╠➩✔️ Auto Kick : On\n"
-		else:md+="╠➩❌ Auto Kick : Off\n"
-		if wait["alwaysRead"] == True: md+="╠➩✔️ Always Read : On\n"
-		else:md+="╠➩❌ Always Read: Off\n"
-		if wait["detectMention"] == True: md+="╠➩✔️ Auto Respon1 : On\n"
-		else:md+="╠➩❌ Auto Respon1 : Off\n"		
-		if wait["detectMention2"] == True: md+="╠➩✔️ Auto Respon2 : On\n"
-		else:md+="╠➩❌ Auto Respon2 : Off\n"	
-		if wait["detectMention3"] == True: md+="╠➩✔️ Auto Respon3 : On\n"
-		else:md+="╠➩❌ Auto Respon3 : Off\n"			
-		if wait["kickMention"] == True: md+="╠➩✔️ Auto Respon Kick : On\n"
-		else:md+="╠➩❌ Auto Respon Kick : Off\n"				
-		if wait["Sider"] == True: md+="╠➩✔️ Auto Sider : On\n"
-		else:md+="╠➩❌ Auto Sider: Off\n"	
-		if wait["Simi"] == True: md+="╠➩✔️ Simisimi : On\n"
-		else:md+="╠➩❌ Simisimi: Off\n"		
-                nadya.sendText(msg.to,"╔═════════════════════════\n""║           ☆☞ S T A T U S ☜☆\n""╠═════════════════════════\n"+md+"╚═════════════════════════")
+		if wait["Sambutan"] == True: md+="╠➩👍 Sambutan : On\n"
+		else:md+="╠➩👎 Sambutan : Off\n"
+		if wait["AutoJoin"] == True: md+="╠➩👍 Auto Join : On\n"
+                else: md +="╠➩👎 Auto Join : Off\n"
+		if wait["AutoJoinCancel"] == True: md+="╠➩👍 Auto Join Cancel : On\n"
+                else: md +="╠➩👎 Auto Join Cancel : Off\n"                
+		if wait["Contact"] == True: md+="╠➩👍 Info Contact : On\n"
+		else: md+="╠➩👎 Info Contact : Off\n"
+                if wait["AutoCancel"] == True:md+="╠➩👍 Auto Cancel : On\n"
+                else: md+= "╠➩👎 Auto Cancel : Off\n"
+                if wait["inviteprotect"] == True:md+="╠➩👍 Invite Protect : On\n"
+                else: md+= "╠➩👎 Invite Protect : Off\n"                
+		if wait["Qr"] == True: md+="╠➩👍 Qr Protect : On\n"
+		else:md+="╠➩👎 Qr Protect : Off\n"
+		if wait["AutoKick"] == True: md+="╠➩👍 Auto Kick : On\n"
+		else:md+="╠➩👎 Auto Kick : Off\n"
+		if wait["alwaysRead"] == True: md+="╠➩👍 Always Read : On\n"
+		else:md+="╠➩👎 Always Read: Off\n"
+		if wait["detectMention"] == True: md+="╠➩👍 Auto Respon1 : On\n"
+		else:md+="╠➩👎 Auto Respon1 : Off\n"		
+		if wait["detectMention2"] == True: md+="╠➩👍 Auto Respon2 : On\n"
+		else:md+="╠➩👎 Auto Respon2 : Off\n"	
+		if wait["detectMention3"] == True: md+="╠➩👍 Auto Respon3 : On\n"
+		else:md+="╠➩👎 Auto Respon3 : Off\n"			
+		if wait["kickMention"] == True: md+="╠➩👍 Auto Respon Kick : On\n"
+		else:md+="╠➩👎 Auto Respon Kick : Off\n"				
+		if wait["Sider"] == True: md+="╠➩👍 Auto Sider : On\n"
+		else:md+="╠➩👎 Auto Sider: Off\n"	
+		if wait["Simi"] == True: md+="╠➩👍 Simisimi : On\n"
+		else:md+="╠➩👎 Simisimi: Off\n"		
+                nadya.sendText(msg.to,"╔═════════════════════════\n""║ ☆☞ S U S A N  S T A T U S ☜☆\n""╠═════════════════════════\n"+md+"╚═════════════════════════")
 
 
             elif msg.text in ["Gift","gift"]:
