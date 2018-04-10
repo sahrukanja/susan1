@@ -281,7 +281,7 @@ wait = {
     'copy':{},    
     'likeOn':{},
     'detectMention':False,
-    'detectMention2':True,
+    'detectMention2':False,
     'detectMention3':True,
     'kickMention':False,  
     'sticker':False,  
