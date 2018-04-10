@@ -892,8 +892,8 @@ def bot(op):
                  if wait["detectMention3"] == True:          
                     contact = nadya.getContact(msg.from_)
                     cName = contact.displayName
-                    balas = ["SEKILAS INFO " + cName + ", HATI HATI DENGAN FOTO DIBAWAH INI"]
-                    balas1 = "ORANG YANG SUKA ANU DAN DI ANU 😱"
+                    balas = ["Hadir" + cName + ","]
+                    balas1 = ""
                     ret_ = random.choice(balas)
                     image = "http://dl.profile.line-cdn.net/" + contact.pictureStatus
                     name = re.findall(r'@(\w+)', msg.text)
